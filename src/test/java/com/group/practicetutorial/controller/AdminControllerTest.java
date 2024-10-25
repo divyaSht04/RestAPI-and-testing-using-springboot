@@ -50,7 +50,7 @@ public class AdminControllerTest {
     }
 
     @Test
-    public void createAdminTest(){
+    public void testCreateAdminTest(){
         User user = new User();
         user.setUsername("test2");
         user.setPassword("test2");

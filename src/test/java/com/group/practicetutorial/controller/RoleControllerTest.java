@@ -33,7 +33,7 @@ class RoleControllerTest {
     }
 
     @Test
-    void getRoles() {
+    void testGetRoles() {
 
         Role role = new Role();
         role.setName("Role test 1");
@@ -48,7 +48,7 @@ class RoleControllerTest {
     }
 
     @Test
-    void createRole() {
+    void testCreateRole() {
         Role role = new Role();
         role.setName("Role test 2");
 
